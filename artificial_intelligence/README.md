@@ -47,3 +47,23 @@ This assignment involves implementing and analyzing heuristic-based search algor
     - **Euclidean Distance** for direct-line distance.
     - **Chebyshev Distance** for cases allowing diagonal movement.
 
+---
+
+# A3 - Game-Playing and Reinforcement Learning
+
+### Overview
+This assignment focuses on implementing game-playing strategies and reinforcement learning algorithms to optimize decision-making. The key tasks involve creating Minimax and Alpha-Beta pruning agents, as well as a Q-Learning agent, demonstrating core techniques in search optimization and reinforcement learning for intelligent decision-making.
+
+### Key Tasks
+
+- **Minimax Algorithm**
+  - Implemented the basic Minimax algorithm for adversarial games to evaluate moves by simulating all possible outcomes.
+  - Ensured correct terminal node evaluation and optimal move selection.
+
+- **Alpha-Beta Pruning**
+  - Enhanced the Minimax algorithm with Alpha-Beta pruning to improve efficiency by reducing node expansions.
+  - Tested the implementation in a simulated game environment, validating optimality.
+
+- **Q-Learning**
+  - Developed a Q-Learning agent to learn optimal policies through exploration (epsilon-greedy) and exploitation.
+  - Applied the Bellman equation for iterative Q-value updates and visualized the resulting policies and value functions.
