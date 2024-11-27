@@ -26,3 +26,24 @@ This assignment focuses on implementing and analyzing dynamic programming algori
 - **Efficient Implementation**: Leveraged NumPy for matrix-based operations to ensure computational efficiency and scalability across tasks.
 
 ---
+
+## **Assignment 3 - Monte Carlo Methods**
+
+### Overview
+This assignment explores Monte Carlo (MC) methods for solving reinforcement learning problems, focusing on key algorithms for policy evaluation and control in model-free environments. These methods are applied to the Blackjack and Fishlake environments to analyze performance and differences from Dynamic Programming (DP) techniques.
+
+### Key Tasks
+
+- **First-Visit Monte Carlo Policy Evaluation:**
+  - Implemented to compute the value function for a given policy by averaging returns from the first visit to each state in sampled episodes.
+  - Applied to the Blackjack environment to evaluate its performance and convergence properties.
+
+- **Every-Visit Monte Carlo Policy Evaluation:**
+  - Developed to update the value function using the average of all returns for each state encountered during an episode.
+  - Compared with first-visit MC to understand differences in convergence and variance.
+
+- **Monte Carlo On-Policy Control with ε-Soft Policies:**
+  - Implemented to derive near-optimal policies by iteratively improving state-action values using sampled episodes.
+  - Used ε-greedy exploration to balance exploration and exploitation while refining the policy for Blackjack and Fishlake environments.
+
+---
