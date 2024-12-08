@@ -67,3 +67,21 @@ This assignment focuses on implementing game-playing strategies and reinforcemen
 - **Q-Learning**
   - Developed a Q-Learning agent to learn optimal policies through exploration (epsilon-greedy) and exploitation.
   - Applied the Bellman equation for iterative Q-value updates and visualized the resulting policies and value functions.
+
+---
+
+# A4 - Decision Trees and Reinforcement Learning
+
+### Overview
+This assignment focuses on implementing decision trees for classification tasks The key objectives involve building a Decision Tree classifier from scratch using the ID3 algorithm and testing its performance.
+
+### Key Tasks
+
+- **Decision Tree Classifier**
+  - Implemented the ID3 algorithm to construct a Decision Tree for binary classification problems.
+  - Developed functions to identify optimal splits, and recursively create tree nodes.
+  - Debugged and validated the tree-building process through visualizations and textual representations of splits.
+
+- **Prediction Using Decision Trees**
+  - Designed a recursive traversal method for predicting labels of unseen samples based on the trained Decision Tree.
+  - Ensured accurate handling of leaf nodes and efficient traversal through decision splits.
