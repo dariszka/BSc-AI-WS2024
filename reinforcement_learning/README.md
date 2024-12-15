@@ -47,3 +47,29 @@ This assignment explores Monte Carlo (MC) methods for solving reinforcement lear
   - Used ε-greedy exploration to balance exploration and exploitation while refining the policy for Blackjack and Fishlake environments.
 
 ---
+
+## **Assignment 4 - Temporal Difference Learning**
+
+### Overview
+This assignment focuses on **Temporal Difference (TD) methods** for policy evaluation and control, highlighting key algorithms such as TD(0), SARSA, Q-Learning, and Expected SARSA. These methods are applied to the **CliffWalking environment** to demonstrate their learning behaviors, convergence properties, and differences in policy outcomes.
+
+
+### Key Tasks
+
+- **TD(0) Policy Evaluation**:
+  - Implemented TD(0) to evaluate a given policy by incrementally updating the value function using bootstrapping.
+  - Demonstrated the method's efficiency as a model-free approach without requiring complete episodes.
+
+- **SARSA (On-Policy Control)**:
+  - Developed the SARSA algorithm to compute state-action values and derive a near-optimal policy.
+  - Illustrated its risk-averse behavior in the CliffWalking environment, where the learned policy avoids the cliff by accounting for the exploratory behavior.
+
+- **Q-Learning (Off-Policy Control)**:
+  - Implemented Q-Learning as an off-policy control algorithm that updates \( Q \)-values based on the greedy target policy.
+  - Observed its risk-neutral behavior, prioritizing the shortest path to the goal, even at the risk of falling off the cliff.
+
+- **Expected SARSA**:
+  - Implemented Expected SARSA, which combines the benefits of SARSA and Q-Learning by using the expected value over actions under an epsilon-greedy policy.
+  - Compared on-policy and off-policy variants to analyze their impact on policy learning and convergence.
+
+---
