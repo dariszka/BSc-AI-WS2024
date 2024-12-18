@@ -24,3 +24,16 @@ Implemented a **chaining hash set**, focusing on efficient key storage and colli
 - **Table Representation**: Created a function to display the hash table and its contents in a readable format.
 
 ---
+
+# **Assignment 3 - Dijkstra's Algorithm and Shortest Paths**
+
+### Overview
+Developed a **graph representation and navigation system** with support for finding the shortest paths and distances between nodes using Dijkstra's algorithm.
+
+### Key Tasks
+- **Shortest Path Calculation**: Utilized Dijkstra's algorithm to compute the shortest paths and distances from a given node to all others.
+- **Core Methods**:
+  - `get_shortest_path`: Retrieves the shortest path between two nodes, including intermediate steps.
+  - `get_shortest_distances`: Returns the shortest distance to each node from a given start node.
+  - `reachable`: Checks whether a path exists between two nodes.
+- **Graph Testing**: Validated graph operations using a predefined map (e.g., campus locations).
