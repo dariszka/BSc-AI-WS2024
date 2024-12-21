@@ -85,3 +85,22 @@ This assignment focuses on implementing decision trees for classification tasks 
 - **Prediction Using Decision Trees**
   - Designed a recursive traversal method for predicting labels of unseen samples based on the trained Decision Tree.
   - Ensured accurate handling of leaf nodes and efficient traversal through decision splits.
+
+---
+
+# A5 - Bayesian Networks and Probabilistic Inference
+
+### Overview
+This assignment focuses on understanding and implementing Bayesian Networks for probabilistic reasoning. The key objectives involve building a Bayesian Network, performing inference tasks using the Chain Rule, and calculating probabilities of events.
+
+### Key Tasks
+
+- **Defining Bayesian Networks**
+  - Constructed a Bayesian Network with random variables, parent-child relationships, and Conditional Probability Tables (CPTs).
+  - Encoded dependencies between variables using Directed Acyclic Graphs (DAGs) to represent conditional independence.
+
+- **Recursive Event Probability Calculation**
+  - Implemented a recursive function to compute probabilities of events by summing over missing variables.
+  - Applied the Chain Rule to calculate the joint probability of atomic events.
+  - Designed helper functions for handling partial events and extending assignments to missing variables.
+  - Computed joint probabilities of events and normalized results using the inference-by-enumeration approach.
