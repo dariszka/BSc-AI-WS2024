@@ -37,3 +37,24 @@ Developed a **graph representation and navigation system** with support for find
   - `get_shortest_distances`: Returns the shortest distance to each node from a given start node.
   - `reachable`: Checks whether a path exists between two nodes.
 - **Graph Testing**: Validated graph operations using a predefined map (e.g., campus locations).
+
+---
+
+# **Assignment 4 - Ford-Fulkerson Algorithm for Maximum Flow**
+
+### Overview
+Implemented the **Ford-Fulkerson algorithm** to compute the **maximum flow** in a flow network using augmenting paths and a residual graph with support for **dynamic residual graph updates** for augmenting path-based flow calculations.
+
+
+### Key Tasks
+- **Maximum Flow Calculation**:
+  - Designed a class-based implementation to perform flow augmentations iteratively.
+  - Computed the maximum flow from a source node to a sink node using a BFS-based approach.
+  
+- **Core Methods**:
+  - `ff_step`: Executes a single augmentation step, updating:
+    - `latest_augmenting_path`: Tracks the augmenting path found in the current iteration.
+    - `current_flow`: Updates cumulative flows in the network, tracking forward and reverse flows.
+    - `residual_graph`: Reflects available capacities after each augmentation.
+  - `ford_fulkerson`: Iteratively calls `ff_step` until no further augmenting path is found, returning the **maximum flow**.
+  - `bfs`: Performs Breadth-First Search to find augmenting paths in the residual graph.
