@@ -73,3 +73,25 @@ This assignment focuses on **Temporal Difference (TD) methods** for policy evalu
   - Compared on-policy and off-policy variants to analyze their impact on policy learning and convergence.
 
 ---
+
+### **Assignment 5 - Policy Gradient Methods**
+
+#### **Overview**
+This assignment explores **Policy Gradient Methods**, focusing on their application to the **CartPole-v1 environment**. The assignment highlights key algorithms such as **REINFORCE** and **REINFORCE with Baseline**, demonstrating their effectiveness in optimizing policies through gradient ascent in parameterized policy spaces.
+
+---
+
+#### **Key Tasks**
+
+- **REINFORCE Algorithm**:
+  - Implemented the **Monte Carlo Policy Gradient** method to compute returns and update policy parameters via gradient ascent.
+  - Visualized training performance, showing cumulative rewards over 200 episodes, with increasing rewards indicating successful policy optimization.
+
+- **REINFORCE with Baseline**:
+  - Enhanced the REINFORCE algorithm by incorporating a learned **state-value baseline** to reduce variance in policy updates.
+  - Observed faster convergence and improved stability compared to the vanilla REINFORCE algorithm.
+
+- **Computational Experiments**:
+  - Compared the performance of REINFORCE and REINFORCE with Baseline, highlighting differences in learning speed and variance reduction.
+  - Demonstrated how the baseline significantly accelerates convergence and reduces noise in reward trends.
+
